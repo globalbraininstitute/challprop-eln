@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Benchmarking | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/benchmarking/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-05T20:47:28+01:00</updated>
+  <updated>2014-12-10T13:16:47+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -900,7 +900,7 @@ b10ebe4--benchmarking with 90 agents: cputime + walltime
 ea1c2cb--benchmarking with 40 agents: cputime + walltime
 6e0899a--benchmarking with 20 agents: cputime + walltime
 f4ead15--benchmarking with 10 agents: cputime + walltime</code></pre>
-<p>Simulation version of java-experiment (<a href="https://bitbucket.org/gbi/challprop">challprop</a>): 4460607 <br /> (use <code>git checkout $commit$</code> if needed)</p>
+<p>Simulation version of java-experiment (<a href="https://bitbucket.org/gbi/challprop">challprop</a>):  0f1bdd2 <br /> (use <code>git checkout $commit$</code> if needed)</p>
 </div>
 </div>
 
