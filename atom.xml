@@ -4,7 +4,7 @@
   <title><![CDATA[Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-23T13:55:43+01:00</updated>
+  <updated>2014-12-26T20:01:56+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -12,6 +12,15 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 3: 10k Agents / 100 Generations]]></title>
+    <link href="http://vveitas.github.io/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/"/>
+    <updated>2014-12-26T19:23:04+01:00</updated>
+    <id>http://vveitas.github.io/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations</id>
+    <content type="html"><![CDATA[
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Analysis 2/4: Degree Distribution]]></title>
@@ -27,7 +36,7 @@
 
 <ul>
   <li>whether degrees and and benefit corelate in any fashion (and maybe cummulated link weights / social capital);</li>
-  <li>is there a difference in benefit dynamics of agents with hither degree than lower degree (if the number of such agents is enough to make any inferences…)</li>
+  <li>is there a difference in benefit dynamics of agents with higher degree than lower degree (if the number of such agents is enough to make any inferences…)</li>
 </ul>
 
 <p><a href="http://vveitas.github.io/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -136,11 +145,22 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Experiment 2: 10k Agents / 100 Generations]]></title>
+    <title type="html"><![CDATA[Experiment 2: 10k Agents / 100 Generations (OUTDATED)]]></title>
     <link href="http://vveitas.github.io/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/"/>
     <updated>2014-12-09T16:37:43+01:00</updated>
     <id>http://vveitas.github.io/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations</id>
-    <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
+    <content type="html"><![CDATA[<h1 id="outdated">Outdated</h1>
+<p>The data of this experiment is not exact due to a few bugs found during analyses.</p>
+
+<ul>
+  <li>The calculation of links between agents was not correct, because ‘knows’ links also include links from generator of diversity to agents. Corrected with commit No. <a href="https://bitbucket.org/gbi/challprop-analytics/commits/435c157459204acdff2db5807b6498128df0bca4">435c157</a>;</li>
+  <li>Agents were propagating challenges through the links which are strongest; without explicit checking this resulted in agents propagating challenges back to generator of diversity as these where the strongest links in the beginning… Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/a0ea0722994165c1d1bda05969bd83d27f22d887">a0ea072</a></li>
+  <li>Last but not least the was an error when making a random jump - random jump was not being performed in case there are existing link to another agent, which has put a limit on the number of random links in simulation (until every agent has at least one link..). Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/d7050fd816c674b61cfab6ac67915c7e7b79bb1e">d7050fd</a>.</li>
+</ul>
+
+<p>See [Experiment 3]/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/ for the results with the corrected code.</p>
+
+<h1 id="experimental-setup">Experimental setup:</h1>
 
 <p>I am repeating Evo’s original experiment with <a href="https://bitbucket.org/evob/chalprop_matlab">chalprop-matlab</a> and presented in GBI seminar which is available <a href="http://ecco.vub.ac.be/?q=node/209">here</a>. The main goal of performing experiments with challprop-java is to observe the self-organization of the network defined in <a href="http://pespmc1.vub.ac.be/Papers/ChallengePropagation.pdf">this paper</a> and test hypotheses formulated there.</p>
 
@@ -158,7 +178,7 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
 
 <p><a href="http://vveitas.github.io/blog/2014/12/21/analysis-2-slash-3-distribution-of-link-weights/">Analysis #2/3: distribution of link weights</a> </p>
 
-<p><a href="http://vveitas.github.io/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis #2/4: degree distribution</a> </p>
+<p><a href="http://vveitas.github.io/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis #2/4: degree distribution</a></p>
 
 <p><a href="">Analysis #2/..: degree/weight/benefit correlation</a> (comming soon)</p>
 

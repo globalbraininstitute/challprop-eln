@@ -114,6 +114,43 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T19:23:04+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+        
+      </p>
+    
+    
+      <h2 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/" itemprop="url">Experiment 3: 10k Agents / 100 Generations</a></h2>
+    
+  </header>
+
+
+  <div class="entry-content clearfix" itemprop="articleBody description">
+</div>
+  
+  
+
+
+        </article>
+      
+      
+        <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+          
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
+
+
+
+
+
+
+
+
+
+
+
+
 <span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-23T13:38:14+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
         
       </p>
@@ -133,7 +170,7 @@
 
 <ul>
   <li>whether degrees and and benefit corelate in any fashion (and maybe cummulated link weights / social capital);</li>
-  <li>is there a difference in benefit dynamics of agents with hither degree than lower degree (if the number of such agents is enough to make any inferences…)</li>
+  <li>is there a difference in benefit dynamics of agents with higher degree than lower degree (if the number of such agents is enough to make any inferences…)</li>
 </ul>
 
 <p><a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -353,12 +390,23 @@
       </p>
     
     
-      <h2 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/" itemprop="url">Experiment 2: 10k Agents / 100 Generations</a></h2>
+      <h2 class="entry-title" itemprop="name headline"><a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/" itemprop="url">Experiment 2: 10k Agents / 100 Generations (OUTDATED)</a></h2>
     
   </header>
 
 
-  <div class="entry-content clearfix" itemprop="articleBody description"><h1 id="experimental-setup">Experimental setup:</h1>
+  <div class="entry-content clearfix" itemprop="articleBody description"><h1 id="outdated">Outdated</h1>
+<p>The data of this experiment is not exact due to a few bugs found during analyses.</p>
+
+<ul>
+  <li>The calculation of links between agents was not correct, because ‘knows’ links also include links from generator of diversity to agents. Corrected with commit No. <a href="https://bitbucket.org/gbi/challprop-analytics/commits/435c157459204acdff2db5807b6498128df0bca4">435c157</a>;</li>
+  <li>Agents were propagating challenges through the links which are strongest; without explicit checking this resulted in agents propagating challenges back to generator of diversity as these where the strongest links in the beginning… Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/a0ea0722994165c1d1bda05969bd83d27f22d887">a0ea072</a></li>
+  <li>Last but not least the was an error when making a random jump - random jump was not being performed in case there are existing link to another agent, which has put a limit on the number of random links in simulation (until every agent has at least one link..). Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/d7050fd816c674b61cfab6ac67915c7e7b79bb1e">d7050fd</a>.</li>
+</ul>
+
+<p>See [Experiment 3]/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/ for the results with the corrected code.</p>
+
+<h1 id="experimental-setup">Experimental setup:</h1>
 
 <p>I am repeating Evo’s original experiment with <a href="https://bitbucket.org/evob/chalprop_matlab">chalprop-matlab</a> and presented in GBI seminar which is available <a href="http://ecco.vub.ac.be/?q=node/209">here</a>. The main goal of performing experiments with challprop-java is to observe the self-organization of the network defined in <a href="http://pespmc1.vub.ac.be/Papers/ChallengePropagation.pdf">this paper</a> and test hypotheses formulated there.</p>
 
@@ -376,7 +424,7 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
 
 <p><a href="/blog/2014/12/21/analysis-2-slash-3-distribution-of-link-weights/">Analysis #2/3: distribution of link weights</a> </p>
 
-<p><a href="/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis #2/4: degree distribution</a> </p>
+<p><a href="/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis #2/4: degree distribution</a></p>
 
 <p><a href="">Analysis #2/..: degree/weight/benefit correlation</a> (comming soon)</p>
 
@@ -1849,6 +1897,8 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
   
   <div id="recent_posts" class="list-group">
     
+    <a class="list-group-item " href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Experiment 3: 10k Agents / 100 Generations</a>
+    
     <a class="list-group-item " href="/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis 2/4: Degree Distribution</a>
     
     <a class="list-group-item " href="/blog/2014/12/21/analysis-2-slash-3-distribution-of-link-weights/">Analysis 2/3: Distribution of Link Weights</a>
@@ -1856,8 +1906,6 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
     <a class="list-group-item " href="/blog/2014/12/19/analysis-2-slash-2-distribution-of-original-challenges/">Analysis 2/2: Distribution of Original Challenges</a>
     
     <a class="list-group-item " href="/blog/2014/12/16/analysis-2-slash-1-basic-statistics/">Analysis 2/1: Basic Statistics</a>
-    
-    <a class="list-group-item " href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Experiment 2: 10k Agents / 100 Generations</a>
     
   </div>
 </section>
@@ -1868,21 +1916,27 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
   <div class="list-group">
     
     
-    <a class="list-group-item " href="/blog/categories/experiment/index.html">
+    <a class="list-group-item " href="/blog/categories/experiments/index.html">
+        <span class="badge">4</span>
+        experiments
+      </a>
+    
+    
+    <a class="list-group-item " href="/blog/categories/experiment-1/index.html">
         <span class="badge">2</span>
-        experiment
+        experiment-1
       </a>
     
     
-    <a class="list-group-item " href="/blog/categories/analysis/index.html">
+    <a class="list-group-item " href="/blog/categories/analyses/index.html">
         <span class="badge">5</span>
-        analysis
+        analyses
       </a>
     
     
-    <a class="list-group-item " href="/blog/categories/benchmarking/index.html">
-        <span class="badge">1</span>
-        benchmarking
+    <a class="list-group-item " href="/blog/categories/experiment-2/index.html">
+        <span class="badge">5</span>
+        experiment-2
       </a>
     
   </div>
