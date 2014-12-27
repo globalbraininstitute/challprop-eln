@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiment-4 | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiment-4/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-28T00:34:15+01:00</updated>
+  <updated>2014-12-28T00:50:37+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -21,6 +21,8 @@
     <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
 
 <p>This experiment has not been performed yet. I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
+
+<p>Btw, before running simulations I need to add some more functionality to the main challprop code (or find out where it is hidden…) for accruing the history of weight changes for every link.</p>
 
 <h1 id="analyses-to-do">Analyses (to do):</h1>
 

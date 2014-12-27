@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiments/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-28T00:34:15+01:00</updated>
+  <updated>2014-12-28T00:50:37+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -21,6 +21,8 @@
     <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
 
 <p>This experiment has not been performed yet. I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
+
+<p>Btw, before running simulations I need to add some more functionality to the main challprop code (or find out where it is hidden…) for accruing the history of weight changes for every link.</p>
 
 <h1 id="analyses-to-do">Analyses (to do):</h1>
 
@@ -79,7 +81,7 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
 
 <h2 id="verdict">Verdict</h2>
 
-<p>I think the Analysis #3/5 indicates the direction for the next experiment <a href="/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/">4</a>.</p>
+<p>The benefit/per unit of time does not change = no learning. I think the Analysis #3/5 indicates the direction for the next experiment <a href="/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/">4</a>, i.e. try changing <code>randomJumpParameter</code>.</p>
 
 <h1 id="full-list-of-simulations-parameters">Full list of simulation’s parameters:</h1>
 <p>This is a long list mainly for the reference..</p>
