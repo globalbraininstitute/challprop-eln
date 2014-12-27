@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Experiment-4 | Electronic Laboratory Notebook]]></title>
+  <link href="http://vveitas.github.io/blog/categories/experiment-4/atom.xml" rel="self"/>
+  <link href="http://vveitas.github.io/"/>
+  <updated>2014-12-28T00:34:15+01:00</updated>
+  <id>http://vveitas.github.io/</id>
+  <author>
+    <name><![CDATA[vveitas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 4: Playing With randomJumpParameter]]></title>
+    <link href="http://vveitas.github.io/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/"/>
+    <updated>2014-12-28T00:02:33+01:00</updated>
+    <id>http://vveitas.github.io/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter</id>
+    <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
+
+<p>This experiment has not been performed yet. I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
+
+<h1 id="analyses-to-do">Analyses (to do):</h1>
+
+<p>same as for Experiment 3:</p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/">Analysis #4/1: benefit increase</a></p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/">Analysis #4/2: distribution of challenges</a> </p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/">Analysis #4/3: distribution of link weights</a> </p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-4-degree-distribution/">Analysis #4/4: degree distribution</a></p>
+
+<p><a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">Analysis #4/5: random jumps</a> (something to check due to low average degree…)</p>
+
+<p>and some more..:</p>
+
+<p><a href="">Analysis #4/..: degree/weight/benefit correlation</a> (comming soon)</p>
+
+<p><a href="">Analysis #4/..: dynamics of link weights + clustering</a> (comming later - or maybe for the next experiment)</p>
+
+<p><a href="">Analysis #4/..: relaxation dynamics</a> (comming even later…)</p>
+
+<p>anything else ??</p>
+]]></content>
+  </entry>
+  
+</feed>

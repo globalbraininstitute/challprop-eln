@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiments/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-27T23:52:09+01:00</updated>
+  <updated>2014-12-28T00:34:15+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -14,13 +14,48 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Experiment 4: Playing With randomJumpParameter]]></title>
+    <link href="http://vveitas.github.io/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/"/>
+    <updated>2014-12-28T00:02:33+01:00</updated>
+    <id>http://vveitas.github.io/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter</id>
+    <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
+
+<p>This experiment has not been performed yet. I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
+
+<h1 id="analyses-to-do">Analyses (to do):</h1>
+
+<p>same as for Experiment 3:</p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/">Analysis #4/1: benefit increase</a></p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/">Analysis #4/2: distribution of challenges</a> </p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/">Analysis #4/3: distribution of link weights</a> </p>
+
+<p><a href="/blog/2014/12/26/analysis-3-slash-4-degree-distribution/">Analysis #4/4: degree distribution</a></p>
+
+<p><a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">Analysis #4/5: random jumps</a> (something to check due to low average degree…)</p>
+
+<p>and some more..:</p>
+
+<p><a href="">Analysis #4/..: degree/weight/benefit correlation</a> (comming soon)</p>
+
+<p><a href="">Analysis #4/..: dynamics of link weights + clustering</a> (comming later - or maybe for the next experiment)</p>
+
+<p><a href="">Analysis #4/..: relaxation dynamics</a> (comming even later…)</p>
+
+<p>anything else ??</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Experiment 3: 10k Agents / 100 Generations]]></title>
     <link href="http://vveitas.github.io/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/"/>
     <updated>2014-12-26T19:23:04+01:00</updated>
     <id>http://vveitas.github.io/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations</id>
     <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
 
-<p>This is Experiment 2 repeated with corrected code. Therefore I copy-paste all text from Experiment 2 that is still relevan there..: </p>
+<p>This is repeated Experiment 2 with the corrected code. Therefore I copy-paste all text from Experiment 2 which is still relevant here (+ some more)… </p>
 
 <p>I am repeating Evo’s original experiment with <a href="https://bitbucket.org/evob/chalprop_matlab">chalprop-matlab</a> and presented in GBI seminar which is available <a href="http://ecco.vub.ac.be/?q=node/209">here</a>. The main goal of performing experiments with challprop-java is to observe the self-organization of the network defined in <a href="http://pespmc1.vub.ac.be/Papers/ChallengePropagation.pdf">this paper</a> and test hypotheses formulated there.</p>
 
@@ -34,19 +69,17 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
 
 <p><a href="/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/">Analysis #3/1: benefit increase</a></p>
 
-<p><a href="/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/">Analysis #3/2: distribution of original challenges</a> </p>
+<p><a href="/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/">Analysis #3/2: distribution of challenges</a> </p>
 
 <p><a href="/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/">Analysis #3/3: distribution of link weights</a> </p>
 
 <p><a href="/blog/2014/12/26/analysis-3-slash-4-degree-distribution/">Analysis #3/4: degree distribution</a></p>
 
-<p><a href="">Analysis #3/..: rendom jumps</a> (something to check due to low average degree…)</p>
+<p><a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">Analysis #3/5: random jumps</a> (something to check due to low average degree…)</p>
 
-<p><a href="">Analysis #2/..: degree/weight/benefit correlation</a> (comming soon)</p>
+<h2 id="verdict">Verdict</h2>
 
-<p><a href="">Analysis #2/..: dynamics of link weights + clustering</a> (comming later - or maybe for the next experiment)</p>
-
-<p><a href="">Analysis #2/..: relaxation dynamics</a> (comming even later…)</p>
+<p>I think the Analysis #3/5 indicates the direction for the next experiment <a href="/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/">4</a>.</p>
 
 <h1 id="full-list-of-simulations-parameters">Full list of simulation’s parameters:</h1>
 <p>This is a long list mainly for the reference..</p>
