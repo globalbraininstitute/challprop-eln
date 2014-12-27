@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiment-2 | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiment-2/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-26T20:01:56+01:00</updated>
+  <updated>2014-12-27T01:31:01+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -149,7 +149,7 @@
   <li>Last but not least the was an error when making a random jump - random jump was not being performed in case there are existing link to another agent, which has put a limit on the number of random links in simulation (until every agent has at least one link..). Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/d7050fd816c674b61cfab6ac67915c7e7b79bb1e">d7050fd</a>.</li>
 </ul>
 
-<p>See [Experiment 3]/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/ for the results with the corrected code.</p>
+<p>See <a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Experiment 3</a> for the results with the corrected code.</p>
 
 <h1 id="experimental-setup">Experimental setup:</h1>
 

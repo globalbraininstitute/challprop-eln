@@ -1,6 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-4-degree-distribution/</loc>
+    <lastmod>2014-12-26T22:44:40+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/</loc>
+    <lastmod>2014-12-26T22:44:19+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/</loc>
+    <lastmod>2014-12-26T22:43:54+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/</loc>
+    <lastmod>2014-12-26T21:07:10+01:00</lastmod>
+    <priority>0.8</priority>
+  </url>
+  <url>
     <loc>http://vveitas.github.io/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/</loc>
     <lastmod>2014-12-26T19:23:04+01:00</lastmod>
     <priority>0.8</priority>
@@ -47,13 +67,13 @@
   </url>
   <url>
     <loc>http://vveitas.github.io/</loc>
-    <lastmod>2014-12-26T20:01:56+01:00</lastmod>
+    <lastmod>2014-12-27T01:31:01+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>http://vveitas.github.io/blog/archives/</loc>
-    <lastmod>2014-12-26T20:01:56+01:00</lastmod>
+    <lastmod>2014-12-27T01:31:01+01:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
