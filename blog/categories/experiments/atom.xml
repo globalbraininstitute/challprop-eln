@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiments/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2014-12-28T00:50:37+01:00</updated>
+  <updated>2015-01-02T12:37:20+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -12,6 +12,158 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 4.1: 5k Agents; randomJumpParameter = 25]]></title>
+    <link href="http://vveitas.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/"/>
+    <updated>2015-01-02T11:39:25+01:00</updated>
+    <id>http://vveitas.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25</id>
+    <content type="html"><![CDATA[<p>Without any change to the code, running 5000 agents with <code>randomJumpParameter</code> equal to <code>25</code> (the change from <code>99</code>) which should increase the probability of random jump considerably (see <a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">random jump probability analysis</a>).</p>
+
+<h2 id="analyses">Analyses</h2>
+
+<p><a href="/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase/">Analysis 4.1/1: benefit increase</a></p>
+
+<p>Hm, does not look very different from simulations with <code>randomJumpParameter=99</code>…</p>
+
+<h2 id="all-simulation-parameters">All simulation parameters:</h2>
+
+<pre><code>## $pathOnDisk
+## [1] &quot;/media/data/gbi/eln/&quot;
+## 
+## $generateTestDataOnDisk
+## [1] &quot;false&quot;
+## 
+## $tempConfigFile
+## [1] &quot;/media/ramdisk/challprop.conf&quot;
+## 
+## $test
+## [1] &quot;false&quot;
+## 
+## $graphDatabase
+## [1] &quot;TitanCassandraLocal&quot;
+## 
+## $gephiVisualization
+## [1] &quot;false&quot;
+## 
+## $useDatabaseOfVectors
+## [1] &quot;true&quot;
+## 
+## $useDatabaseOfMatrixes
+## [1] &quot;true&quot;
+## 
+## $rivalComponents
+## [1] &quot;[0, 1, 2, 3, 4]&quot;
+## 
+## $cstSituation
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorSituation
+## [1] &quot;0.25&quot;
+## 
+## $percnegSituation
+## [1] &quot;0.2&quot;
+## 
+## $exponentSituation
+## [1] &quot;2&quot;
+## 
+## $numberOfAgents
+## [1] &quot;5000&quot;
+## 
+## $decayFactor
+## [1] &quot;1&quot;
+## 
+## $decayRate
+## [1] &quot;0.03&quot;
+## 
+## $reciprocityRate
+## [1] &quot;0.2&quot;
+## 
+## $weightImportance
+## [1] &quot;0.2&quot;
+## 
+## $believe
+## [1] &quot;0.2&quot;
+## 
+## $propagateRate
+## [1] &quot;0.4&quot;
+## 
+## $dimensions
+## [1] &quot;10&quot;
+## 
+## $densityMatrix
+## [1] &quot;0.5&quot;
+## 
+## $rfactor
+## [1] &quot;0.5&quot;
+## 
+## $numberOfCycles
+## [1] &quot;100&quot;
+## 
+## $newSituationsPerCycle
+## [1] &quot;5&quot;
+## 
+## $learningRate
+## [1] &quot;0.1&quot;
+## 
+## $randomJump
+## [1] &quot;25&quot;
+## 
+## $propagationThreshold
+## [1] &quot;0&quot;
+## 
+## $disableRandomJump
+## [1] &quot;false&quot;
+## 
+## $maxBranchingFactor
+## [1] &quot;1000&quot;
+## 
+## $respectKnowsLinksWeights
+## [1] &quot;true&quot;
+## 
+## $bufferSize
+## [1] &quot;10&quot;
+## 
+## $ignoreNonRivalCorrection
+## [1] &quot;false&quot;
+## 
+## $cstNeed
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorNeed
+## [1] &quot;0.5&quot;
+## 
+## $percnegNeed
+## [1] &quot;0.5&quot;
+## 
+## $exponentNeed
+## [1] &quot;2&quot;
+## 
+## $simulationStartWall
+## [1] &quot;32867444290893&quot;
+## 
+## $simulationStartCPU
+## [1] &quot;1130043720&quot;
+## 
+## $simulationFinishWall
+## [1] &quot;49591970201648&quot;
+## 
+## $simulationFinishCPU
+## [1] &quot;9252044727595&quot;
+## 
+## $archivingFinishedWall
+## [1] &quot;50291455035290&quot;
+## 
+## $archivingFinishedCPU
+## [1] &quot;9527283747749&quot;
+## 
+## $deletingCassandraWall
+## [1] &quot;50291474065320&quot;
+## 
+## $deletingCassandraCPU
+## [1] &quot;9527299143773&quot;</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Experiment 4: Playing With randomJumpParameter]]></title>
@@ -23,6 +175,10 @@
 <p>This experiment has not been performed yet. I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
 
 <p>Btw, before running simulations I need to add some more functionality to the main challprop code (or find out where it is hidden…) for accruing the history of weight changes for every link.</p>
+
+<h1 id="sub-experiments">‘Sub-experiments’:</h1>
+
+<p><code>randomJumpParameter=25</code>: <a href="/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/">Experiment 4-1</a></p>
 
 <h1 id="analyses-to-do">Analyses (to do):</h1>
 
@@ -1310,28 +1466,6 @@ $(document).ready(function () {
 
 </body>
 </html>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Experiment 1: Two Predefined Clusters of Agents]]></title>
-    <link href="http://vveitas.github.io/blog/2014/11/04/experiment-1-two-predefined-clusters-of-agents/"/>
-    <updated>2014-11-04T18:12:20+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/11/04/experiment-1-two-predefined-clusters-of-agents</id>
-    <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
-
-<p>We define two clusters of agents with different need vectors. First cluster of 20 agents (C1) is initialized with all vector components equal to number 100.0. The second cluster of 20 agents (C2) is initialized with all components equal to 1.0. Processing matrices of agents in both clusters are generated by Evo’s algorithm. Full list of simulation parameters is given at the end of this page.</p>
-
-<p>The initialized network is bombarded with randomly (well, according to Evo’s algorithm) generated situations (100) and then results are analyzed. It is expected that the benefit accomulation of agents in defferent clusters will follow diferent pattern because of C1 cluster with refuse many challenges, while C2 agents will process almost everything.</p>
-
-<h1 id="results">Results:</h1>
-
-<p>The results are as predicted, therefore we can conclude that the framework works correcty in this respect. The total average benefit of all agents rises monotonicly through the whole simulation and results in 3691.76, but C1 agents on average get more penalized than benefitted from challenges, therefore their average benefit at the end of simulation is negative, while average benefit of C2 agents is much higher (check analysis data).</p>
-
-<h1 id="analysis">Analysis</h1>
-
-<p>This experiment has only one analysis:
-<a href="/blog/2014/11/04/analysis-1-slash-1/">Analysis #1/1</a></p>
 ]]></content>
   </entry>
   
