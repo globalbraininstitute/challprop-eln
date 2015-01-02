@@ -4,7 +4,7 @@
   <title><![CDATA[Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-01-02T12:37:20+01:00</updated>
+  <updated>2015-01-02T12:43:12+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -24,7 +24,7 @@
 
 <h2>Basic Statistics:</h2>
 
-<p>The degree of the graph seems higher than with <code>randomJumpParameter=99</code> (it was around 2.5): <em>5.8</em> = knowsLinks=28990 / agent=5000.</p>
+<p>The degree of the graph seems higher than with <code>randomJumpParameter=99</code> (it was around 2.5): <strong>5.8</strong> = knowsLinks=28990 / agent=5000.</p>
 
 <pre><code>## 
 ## NUMBER OF VERTIXES:
