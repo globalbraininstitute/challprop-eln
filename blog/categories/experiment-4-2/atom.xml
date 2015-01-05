@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Experiment-4-2 | Electronic Laboratory Notebook]]></title>
+  <link href="http://vveitas.github.io/blog/categories/experiment-4-2/atom.xml" rel="self"/>
+  <link href="http://vveitas.github.io/"/>
+  <updated>2015-01-05T19:31:17+01:00</updated>
+  <id>http://vveitas.github.io/</id>
+  <author>
+    <name><![CDATA[vveitas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 4/2: 3k Agents; randomJumpParameter 99]]></title>
+    <link href="http://vveitas.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/"/>
+    <updated>2015-01-05T18:59:56+01:00</updated>
+    <id>http://vveitas.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99</id>
+    <content type="html"><![CDATA[<p>Changes to the code just before:</p>
+
+<ul>
+  <li>weightHistory parameter on every link, allowing to get all changes link weights with timestamps of events;</li>
+  <li>bug fix: corrected the mess with reciprocal links;</li>
+  <li>bug fix: links to generator of diversity were not set to 1 initially…;</li>
+  <li>bug fix: got rid of testNG tests in favor of JUnit: some important tests were not passing because of that.</li>
+</ul>
+
+<p>Running 3000 agents with <code>randomJumpParameter</code> equal to <code>99</code> for a quick test of the refreshed codebase.</p>
+
+<h2 id="analyses">Analyses</h2>
+
+<p><a href="/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/">Analysis 4.2/1: benefit increase</a></p>
+
+<p>Nothing different from previous attemps - the benefit increase per unit of time is flat…</p>
+
+<h2 id="all-simulation-parameters">All simulation parameters:</h2>
+
+<pre><code>## $pathOnDisk
+## [1] &quot;/media/data/gbi/eln/&quot;
+## 
+## $generateTestDataOnDisk
+## [1] &quot;false&quot;
+## 
+## $tempConfigFile
+## [1] &quot;/media/ramdisk/challprop.conf&quot;
+## 
+## $test
+## [1] &quot;false&quot;
+## 
+## $graphDatabase
+## [1] &quot;TitanCassandraLocal&quot;
+## 
+## $gephiVisualization
+## [1] &quot;false&quot;
+## 
+## $useDatabaseOfVectors
+## [1] &quot;true&quot;
+## 
+## $useDatabaseOfMatrixes
+## [1] &quot;true&quot;
+## 
+## $rivalComponents
+## [1] &quot;[0, 1, 2, 3, 4]&quot;
+## 
+## $cstSituation
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorSituation
+## [1] &quot;0.25&quot;
+## 
+## $percnegSituation
+## [1] &quot;0.2&quot;
+## 
+## $exponentSituation
+## [1] &quot;2&quot;
+## 
+## $numberOfAgents
+## [1] &quot;3000&quot;
+## 
+## $decayFactor
+## [1] &quot;1&quot;
+## 
+## $decayRate
+## [1] &quot;0.03&quot;
+## 
+## $reciprocityRate
+## [1] &quot;0.2&quot;
+## 
+## $linkToGodWeight
+## [1] &quot;1.0&quot;
+## 
+## $weightImportance
+## [1] &quot;0.2&quot;
+## 
+## $believe
+## [1] &quot;0.2&quot;
+## 
+## $propagateRate
+## [1] &quot;0.4&quot;
+## 
+## $dimensions
+## [1] &quot;10&quot;
+## 
+## $densityMatrix
+## [1] &quot;0.5&quot;
+## 
+## $rfactor
+## [1] &quot;0.5&quot;
+## 
+## $numberOfCycles
+## [1] &quot;100&quot;
+## 
+## $newSituationsPerCycle
+## [1] &quot;5&quot;
+## 
+## $learningRate
+## [1] &quot;0.1&quot;
+## 
+## $randomJump
+## [1] &quot;99&quot;
+## 
+## $propagationThreshold
+## [1] &quot;0&quot;
+## 
+## $disableRandomJump
+## [1] &quot;false&quot;
+## 
+## $maxBranchingFactor
+## [1] &quot;1000&quot;
+## 
+## $respectKnowsLinksWeights
+## [1] &quot;false&quot;
+## 
+## $bufferSize
+## [1] &quot;10&quot;
+## 
+## $ignoreNonRivalCorrection
+## [1] &quot;false&quot;
+## 
+## $cstNeed
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorNeed
+## [1] &quot;0.5&quot;
+## 
+## $percnegNeed
+## [1] &quot;0.5&quot;
+## 
+## $exponentNeed
+## [1] &quot;2&quot;
+## 
+## $simulationStartWall
+## [1] &quot;430949358764&quot;
+## 
+## $simulationStartCPU
+## [1] &quot;1070546952&quot;
+## 
+## $simulationFinishWall
+## [1] &quot;2892111420297&quot;
+## 
+## $simulationFinishCPU
+## [1] &quot;1591309689320&quot;
+## 
+## $archivingFinishedWall
+## [1] &quot;3109134407622&quot;
+## 
+## $archivingFinishedCPU
+## [1] &quot;1679731358918&quot;
+## 
+## $deletingCassandraWall
+## [1] &quot;3109145145508&quot;
+## 
+## $deletingCassandraCPU
+## [1] &quot;1679741859707&quot;</code></pre>
+
+]]></content>
+  </entry>
+  
+</feed>
