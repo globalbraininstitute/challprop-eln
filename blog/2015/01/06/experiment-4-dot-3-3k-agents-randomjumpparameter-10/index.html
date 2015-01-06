@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Category: Experiment-3 - Electronic Laboratory Notebook</title>
+  <title>Experiment 4.3: 3k Agents; randomJumpParameter 10 - Electronic Laboratory Notebook</title>
   <meta name="author" content="vveitas">
 
-  <meta name="description" content="Category: experiment-3">
+  
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -14,16 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://vveitas.github.io/blog/categories/experiment-3">
+  <link rel="canonical" href="http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10">
   <link href="/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Electronic Laboratory Notebook" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://vveitas.github.io/blog/categories/experiment-3">
-  <meta property="og:title" content="Category: Experiment-3 - Electronic Laboratory Notebook">
-  <meta property="og:description" content="Category: experiment-3">
+  <meta property="og:url" content="http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10">
+  <meta property="og:title" content="Experiment 4.3: 3k Agents; randomJumpParameter 10 - Electronic Laboratory Notebook">
+  
 
   <script src="/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
 
@@ -59,7 +59,7 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li >
+                <li class="active">
                     <a rel="index" href="/">Blog</a>
                 </li>
                 <li >
@@ -92,35 +92,21 @@
       <div id="main" role="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9">
-    <article role="article">
+  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
+    <meta itemprop="name" content="Electronic Laboratory Notebook" />
+    
+    <meta itemprop="url" content="http://vveitas.github.io" />
+    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
       
-        <header class="page-header">
-          
-          
-            <h1 class="entry-title">
-              Category: Experiment-3
-              
-            </h1>
-          
-        </header>
-      
-      <div class="entry-content">
-        <div id="blog-archives" class="category" itemscope itemtype="http://schema.org/Blog">
-<meta itemprop="name" content="Electronic Laboratory Notebook" />
+  <header class="page-header">
+    
+      <p class="meta text-muted text-uppercase">
+        
 
-<meta itemprop="url" content="http://vveitas.github.io" />
 
 
 
-  
-  <h2 class="year">2014</h2>
 
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/" itemprop="url">Analysis 3/5: Random Jumps</a></h2>
-<p class="meta text-muted">
-  
 
 
 
@@ -128,208 +114,125 @@
 
 
 
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-01-06T11:37:40+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+        
+      </p>
+    
+    
+    <h1 class="entry-title" itemprop="name headline">
+        Experiment 4.3: 3k Agents; randomJumpParameter 10
+        
+    </h1>
+    
+  </header>
 
 
+<div class="entry-content clearfix" itemprop="articleBody description"><p>Running simulation with the <code>randomJumpParameter=10</code> was not sucessfull - the time needed for the propagation step started to explode (probably because of the drastically increased number of links through which situations started to propagate). I had to cancel the simulation which resulted in somewhat corrupted database…</p>
 
+<h2 id="simulation-log">Simulation log</h2>
 
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+<span class="line-number">6</span>
+<span class="line-number">7</span>
+<span class="line-number">8</span>
+<span class="line-number">9</span>
+<span class="line-number">10</span>
+<span class="line-number">11</span>
+<span class="line-number">12</span>
+<span class="line-number">13</span>
+<span class="line-number">14</span>
+<span class="line-number">15</span>
+<span class="line-number">16</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">Creating non-connected network of 3000 agents......Done. In 42.518 seconds.
+</span><span class="line">Iteration 0: generating 600 new situations......Done. In 9.278 seconds.
+</span><span class="line">Iteration 0: propagating challenges and new situations......Done. In 14.237 seconds.
+</span><span class="line">Iteration 1: generating 600 new situations......Done. In 7.215 seconds.
+</span><span class="line">Iteration 1: propagating challenges and new situations......Done. In 8.655 seconds.
+</span><span class="line">Iteration 2: generating 600 new situations......Done. In 7.523 seconds.
+</span><span class="line">Iteration 2: propagating challenges and new situations......
+</span><span class="line">...
+</span><span class="line">...
+</span><span class="line">...
+</span><span class="line">Iteration 54: generating 600 new situations......Done. In 8.41 seconds.
+</span><span class="line">Iteration 54: propagating challenges and new situations......Done. In 1722.227 seconds.
+</span><span class="line">Iteration 55: generating 600 new situations......Done. In 7.99 seconds.
+</span><span class="line">Iteration 55: propagating challenges and new situations......Done. In 1963.651 seconds.
+</span><span class="line">Iteration 56: generating 600 new situations......Done. In 7.659 seconds.
+</span><span class="line">Iteration 56: propagating challenges and new situations..^C
+</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-27T13:54:02+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
+<h2 id="analyses">Analyses</h2>
 
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/analyses/'>analyses</a>, <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
-
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/26/analysis-3-slash-4-degree-distribution/" itemprop="url">Analysis 3/4: Degree Distribution</a></h2>
-<p class="meta text-muted">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T22:44:40+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
-
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/analyses/'>analyses</a>, <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
-
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/" itemprop="url">Analysis 3/3: Distribution of Link Weights</a></h2>
-<p class="meta text-muted">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T22:44:19+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
-
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/analyses/'>analyses</a>, <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
-
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/" itemprop="url">Analysis 3/2: Distribution of Challenges</a></h2>
-<p class="meta text-muted">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T22:43:54+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
-
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/analyses/'>analyses</a>, <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
-
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/" itemprop="url">Analysis 3/1: Basic Statistics and Benefit Increase</a></h2>
-<p class="meta text-muted">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T21:07:10+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
-
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/analyses/'>analyses</a>, <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
-
-
-<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
-  
-<h2 class="post-title" itemprop="name headline"><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/" itemprop="url">Experiment 3: 10k Agents / 100 Generations</a></h2>
-<p class="meta text-muted">
-  
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2014-12-26T19:23:04+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-  
-
-<span class="glyphicon glyphicon-tags"></span>&nbsp;
-<span class="categories">
-  
-    <a class='category' href='/blog/categories/experiment-3/'>experiment-3</a>, <a class='category' href='/blog/categories/experiments/'>experiments</a>
-  
-</span>
-
-
-</p>
-
-</article>
-
+<p><a href="/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/">Analysis 4.3/1 benefit increase</a>:<br />
+This is just for the reference: not to be taken seriously probably because it seems that the database got corrupted - some numbers do not make much sense.</p>
 </div>
 
-      </div>
-      
+
+      <footer>
+        <p class="meta text-muted">
+          
+  
+
+<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">vveitas</span></span>
+
+          
+
+
+
+
+
+
+
+
+
+
+
+
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-01-06T11:37:40+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+          
+
+<span class="glyphicon glyphicon-tags"></span>&nbsp;
+<span class="categories">
+  
+    <a class='category' href='/blog/categories/experiment/'>experiment</a>, <a class='category' href='/blog/categories/experiment-4-3/'>experiment-4-3</a>
+  
+</span>
+
+
+        </p>
+        
+          <div class="sharing">
+  
+  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/" data-via="" data-counturl="http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/" >Tweet</a>
+  
+  
+  
+</div>
+
+        
+        
+          <ul class="meta text-muted pager">
+            
+            <li class="previous"><a href="/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/" title="Previous Post: Analysis 4.2/1 benefit increase">&laquo; Analysis 4.2/1 benefit increase</a></li>
+            
+            
+            <li class="next"><a href="/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/" title="Next Post: Analysis 4.3/1 benefit increase (corrupted)">Analysis 4.3/1 benefit increase (corrupted) &raquo;</a></li>
+            
+          </ul>
+        
+      </footer>
     </article>
     
   </div>
 
   
-    <aside class="sidebar col-md-3">
-      
-        <section class="panel panel-default">
+  <aside class="sidebar col-md-3">
+    
+      <section class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
   </div>
@@ -338,7 +241,7 @@
     
     <a class="list-group-item " href="/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/">Analysis 4.3/1 Benefit Increase (Corrupted)</a>
     
-    <a class="list-group-item " href="/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/">Experiment 4.3: 3k Agents; randomJumpParameter 10</a>
+    <a class="list-group-item active" href="/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/">Experiment 4.3: 3k Agents; randomJumpParameter 10</a>
     
     <a class="list-group-item " href="/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/">Analysis 4.2/1 Benefit Increase</a>
     
@@ -379,7 +282,7 @@
       </a>
     
     
-    <a class="list-group-item active" href="/blog/categories/experiment-3/index.html">
+    <a class="list-group-item " href="/blog/categories/experiment-3/index.html">
         <span class="badge">6</span>
         experiment-3
       </a>
@@ -428,8 +331,8 @@
 
 
 
-      
-    </aside>
+    
+  </aside>
   
 </div>
 

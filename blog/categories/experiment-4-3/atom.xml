@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: Experiment-4-3 | Electronic Laboratory Notebook]]></title>
+  <link href="http://vveitas.github.io/blog/categories/experiment-4-3/atom.xml" rel="self"/>
+  <link href="http://vveitas.github.io/"/>
+  <updated>2015-01-06T12:09:44+01:00</updated>
+  <id>http://vveitas.github.io/</id>
+  <author>
+    <name><![CDATA[vveitas]]></name>
+    
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 4.3: 3k Agents; randomJumpParameter 10]]></title>
+    <link href="http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/"/>
+    <updated>2015-01-06T11:37:40+01:00</updated>
+    <id>http://vveitas.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10</id>
+    <content type="html"><![CDATA[<p>Running simulation with the <code>randomJumpParameter=10</code> was not sucessfull - the time needed for the propagation step started to explode (probably because of the drastically increased number of links through which situations started to propagate). I had to cancel the simulation which resulted in somewhat corrupted database…</p>
+
+<h2 id="simulation-log">Simulation log</h2>
+
+<p>&#8220;`
+Creating non-connected network of 3000 agents……Done. In 42.518 seconds.
+Iteration 0: generating 600 new situations……Done. In 9.278 seconds.
+Iteration 0: propagating challenges and new situations……Done. In 14.237 seconds.
+Iteration 1: generating 600 new situations……Done. In 7.215 seconds.
+Iteration 1: propagating challenges and new situations……Done. In 8.655 seconds.
+Iteration 2: generating 600 new situations……Done. In 7.523 seconds.
+Iteration 2: propagating challenges and new situations……
+…
+…
+…
+Iteration 54: generating 600 new situations……Done. In 8.41 seconds.
+Iteration 54: propagating challenges and new situations……Done. In 1722.227 seconds.
+Iteration 55: generating 600 new situations……Done. In 7.99 seconds.
+Iteration 55: propagating challenges and new situations……Done. In 1963.651 seconds.
+Iteration 56: generating 600 new situations……Done. In 7.659 seconds.
+Iteration 56: propagating challenges and new situations..^C</p>
+
+<p>&#8220;`</p>
+
+<h2 id="analyses">Analyses</h2>
+
+<p><a href="/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/">Analysis 4.3/1 benefit increase</a>:<br />
+This is just for the reference: not to be taken seriously probably because it seems that the database got corrupted - some numbers do not make much sense.</p>
+]]></content>
+  </entry>
+  
+</feed>
