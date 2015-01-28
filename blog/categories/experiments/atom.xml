@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiments/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-01-07T22:31:15+01:00</updated>
+  <updated>2015-01-28T14:13:05+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -12,6 +12,159 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Experiment 4/4: 3k Agents, randomJumpParameter=10,believe=0.1]]></title>
+    <link href="http://vveitas.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/"/>
+    <updated>2015-01-28T13:40:13+01:00</updated>
+    <id>http://vveitas.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1</id>
+    <content type="html"><![CDATA[<p>This time the simulation was able to finish because there were twice less new situations created each generation (300 instead of 600).</p>
+
+<h2 id="analyses">Analyses:</h2>
+
+<p><a href="/blog/2015/01/28/analysis-4-dot-4-slash-1-average-benefit/">Analysis 4.4/1: Average benefit</a>: still nothing new - the benefit per time does not rise…</p>
+
+<h2 id="parameters">Parameters:</h2>
+
+<pre><code>## $pathOnDisk
+## [1] &quot;/media/data/gbi/eln/&quot;
+## 
+## $generateTestDataOnDisk
+## [1] &quot;false&quot;
+## 
+## $tempConfigFile
+## [1] &quot;/media/ramdisk/challprop.conf&quot;
+## 
+## $test
+## [1] &quot;false&quot;
+## 
+## $graphDatabase
+## [1] &quot;TitanCassandraLocal&quot;
+## 
+## $gephiVisualization
+## [1] &quot;false&quot;
+## 
+## $useDatabaseOfVectors
+## [1] &quot;true&quot;
+## 
+## $useDatabaseOfMatrixes
+## [1] &quot;true&quot;
+## 
+## $rivalComponents
+## [1] &quot;[0, 1, 2, 3, 4]&quot;
+## 
+## $cstSituation
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorSituation
+## [1] &quot;0.25&quot;
+## 
+## $percnegSituation
+## [1] &quot;0.2&quot;
+## 
+## $exponentSituation
+## [1] &quot;2&quot;
+## 
+## $numberOfAgents
+## [1] &quot;3000&quot;
+## 
+## $decayFactor
+## [1] &quot;1&quot;
+## 
+## $decayRate
+## [1] &quot;0.03&quot;
+## 
+## $reciprocityRate
+## [1] &quot;0.2&quot;
+## 
+## $linkToGodWeight
+## [1] &quot;1.0&quot;
+## 
+## $weightImportance
+## [1] &quot;0.2&quot;
+## 
+## $believe
+## [1] &quot;0.1&quot;
+## 
+## $propagateRate
+## [1] &quot;0.4&quot;
+## 
+## $dimensions
+## [1] &quot;10&quot;
+## 
+## $densityMatrix
+## [1] &quot;0.5&quot;
+## 
+## $rfactor
+## [1] &quot;0.5&quot;
+## 
+## $numberOfCycles
+## [1] &quot;100&quot;
+## 
+## $newSituationsPerCycle
+## [1] &quot;5&quot;
+## 
+## $learningRate
+## [1] &quot;0.1&quot;
+## 
+## $randomJump
+## [1] &quot;10&quot;
+## 
+## $propagationThreshold
+## [1] &quot;0&quot;
+## 
+## $disableRandomJump
+## [1] &quot;false&quot;
+## 
+## $maxBranchingFactor
+## [1] &quot;1000&quot;
+## 
+## $respectKnowsLinksWeights
+## [1] &quot;false&quot;
+## 
+## $bufferSize
+## [1] &quot;10&quot;
+## 
+## $ignoreNonRivalCorrection
+## [1] &quot;false&quot;
+## 
+## $cstNeed
+## [1] &quot;0.05&quot;
+## 
+## $densityVectorNeed
+## [1] &quot;0.5&quot;
+## 
+## $percnegNeed
+## [1] &quot;0.5&quot;
+## 
+## $exponentNeed
+## [1] &quot;2&quot;
+## 
+## $simulationStartWall
+## [1] &quot;47171860989015&quot;
+## 
+## $simulationStartCPU
+## [1] &quot;1042973071&quot;
+## 
+## $simulationFinishWall
+## [1] &quot;57033285784687&quot;
+## 
+## $simulationFinishCPU
+## [1] &quot;7618777881742&quot;
+## 
+## $archivingFinishedWall
+## [1] &quot;57557715612476&quot;
+## 
+## $archivingFinishedCPU
+## [1] &quot;7796662764623&quot;
+## 
+## $deletingCassandraWall
+## [1] &quot;57557733446739&quot;
+## 
+## $deletingCassandraCPU
+## [1] &quot;7796676042799&quot;</code></pre>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Experiment 4/2: 3k Agents; randomJumpParameter 99]]></title>
@@ -351,10 +504,10 @@
     <p>The next experiment (and all that are comming after it) are based on somewhat corrected codebase (most important are related collection of weight changes history on every link; also some bug fixes on the way….).<a href="">Experiment 4-2</a> is just for trying out the new code with 3k agents and <code>randomJumpParameter=99</code>. Nothing resembling self-organization as expected…</p>
   </li>
   <li>
-    <p><a href="{ post_url 2015-01-06-experiment-4-dot-3-3k-agents-randomjumpparameter-10 %}">Experiment 4-3</a>: <code>randomJumpParamter=10</code>, agents = 3000 (cancelled).</p>
+    <p><a href="/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/">Experiment 4-3</a>: <code>randomJumpParamter=10</code>, agents = 3000 (cancelled).</p>
   </li>
   <li>
-    <p><a href="">Experiment 4-4</a>. This one is still running. I will try out now 3000 agents with <code>randomJumpParameter=25</code> hoping that it will finish in reasonable time. I also decrease the number of new challenges generated each generation - this would allow old challenges ot propagate longer hopefyll without  congesting the network.</p>
+    <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Experiment 4-4</a>: `believe=0.1’, which means that 300 agents get a new challenge each generation; this is the only difference from Experiment 4/3, where believe=0.2 (600 agents get a new challenge each generation).</p>
   </li>
 </ol>
 
@@ -433,177 +586,6 @@ Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">
 ## [1] &quot;false&quot;
 ## 
 ## $graphDatabase
-## [1] &quot;TitanCassandraLocal&quot;
-## 
-## $gephiVisualization
-## [1] &quot;false&quot;
-## 
-## $useDatabaseOfVectors
-## [1] &quot;true&quot;
-## 
-## $useDatabaseOfMatrixes
-## [1] &quot;true&quot;
-## 
-## $rivalComponents
-## [1] &quot;[0, 1, 2, 3, 4]&quot;
-## 
-## $cstSituation
-## [1] &quot;0.05&quot;
-## 
-## $densityVectorSituation
-## [1] &quot;0.25&quot;
-## 
-## $percnegSituation
-## [1] &quot;0.2&quot;
-## 
-## $exponentSituation
-## [1] &quot;2&quot;
-## 
-## $numberOfAgents
-## [1] &quot;10000&quot;
-## 
-## $decayFactor
-## [1] &quot;1&quot;
-## 
-## $decayRate
-## [1] &quot;0.03&quot;
-## 
-## $reciprocityRate
-## [1] &quot;0.2&quot;
-## 
-## $weightImportance
-## [1] &quot;0.2&quot;
-## 
-## $believe
-## [1] &quot;0.2&quot;
-## 
-## $propagateRate
-## [1] &quot;0.4&quot;
-## 
-## $dimensions
-## [1] &quot;10&quot;
-## 
-## $densityMatrix
-## [1] &quot;0.5&quot;
-## 
-## $rfactor
-## [1] &quot;0.5&quot;
-## 
-## $numberOfCycles
-## [1] &quot;100&quot;
-## 
-## $newSituationsPerCycle
-## [1] &quot;5&quot;
-## 
-## $learningRate
-## [1] &quot;0.1&quot;
-## 
-## $randomJump
-## [1] &quot;99&quot;
-## 
-## $propagationThreshold
-## [1] &quot;0&quot;
-## 
-## $disableRandomJump
-## [1] &quot;false&quot;
-## 
-## $maxBranchingFactor
-## [1] &quot;1000&quot;
-## 
-## $respectKnowsLinksWeights
-## [1] &quot;true&quot;
-## 
-## $bufferSize
-## [1] &quot;10&quot;
-## 
-## $ignoreNonRivalCorrection
-## [1] &quot;false&quot;
-## 
-## $cstNeed
-## [1] &quot;0.05&quot;
-## 
-## $densityVectorNeed
-## [1] &quot;0.5&quot;
-## 
-## $percnegNeed
-## [1] &quot;0.5&quot;
-## 
-## $exponentNeed
-## [1] &quot;2&quot;
-## 
-## $simulationStartWall
-## [1] &quot;29423091026692&quot;
-## 
-## $simulationStartCPU
-## [1] &quot;1036002841&quot;
-## 
-## $simulationFinishWall
-## [1] &quot;53857285173308&quot;
-## 
-## $simulationFinishCPU
-## [1] &quot;13135435550944&quot;
-## 
-## $archivingFinishedWall
-## [1] &quot;54718185250031&quot;
-## 
-## $archivingFinishedCPU
-## [1] &quot;13414696410662&quot;
-## 
-## $deletingCassandraWall
-## [1] &quot;54718201348112&quot;
-## 
-## $deletingCassandraCPU
-## [1] &quot;13414709258233&quot;</code></pre>
-
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Experiment 2: 10k Agents / 100 Generations (OUTDATED)]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/"/>
-    <updated>2014-12-09T16:37:43+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations</id>
-    <content type="html"><![CDATA[<h1 id="outdated">Outdated</h1>
-<p>The data of this experiment is not exact due to a few bugs found during analyses.</p>
-
-<ul>
-  <li>The calculation of links between agents was not correct, because ‘knows’ links also include links from generator of diversity to agents. Corrected with commit No. <a href="https://bitbucket.org/gbi/challprop-analytics/commits/435c157459204acdff2db5807b6498128df0bca4">435c157</a>;</li>
-  <li>Agents were propagating challenges through the links which are strongest; without explicit checking this resulted in agents propagating challenges back to generator of diversity as these where the strongest links in the beginning… Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/a0ea0722994165c1d1bda05969bd83d27f22d887">a0ea072</a></li>
-  <li>Last but not least the was an error when making a random jump - random jump was not being performed in case there are existing link to another agent, which has put a limit on the number of random links in simulation (until every agent has at least one link..). Corrected with commit <a href="https://bitbucket.org/gbi/challprop/commits/d7050fd816c674b61cfab6ac67915c7e7b79bb1e">d7050fd</a>.</li>
-</ul>
-
-<p>See <a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Experiment 3</a> for the results with the corrected code.</p>
-
-<h1 id="experimental-setup">Experimental setup:</h1>
-
-<p>I am repeating Evo’s original experiment with <a href="https://bitbucket.org/evob/chalprop_matlab">chalprop-matlab</a> and presented in GBI seminar which is available <a href="http://ecco.vub.ac.be/?q=node/209">here</a>. The main goal of performing experiments with challprop-java is to observe the self-organization of the network defined in <a href="http://pespmc1.vub.ac.be/Papers/ChallengePropagation.pdf">this paper</a> and test hypotheses formulated there.</p>
-
-<p>Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): fecb9bd<br />
-Simulation version of experiment (<a href="https://bitbucket.org/gbi/challprop">challprop-java</a>): 0f1bdd2 <br />
-(use <code>git checkout $commit$</code> if needed)</p>
-
-<h1 id="analyses">Analyses:</h1>
-
-<p>Quite a few things can be checked on the data generated by the simulation. I perform a related analysis for each of them and report results in separate blog posts:</p>
-
-<p><a href="/blog/2014/12/16/analysis-2-slash-1-basic-statistics/">Analysis #2/1: benefit increase</a> (does not look good imho…)</p>
-
-<p><a href="/blog/2014/12/19/analysis-2-slash-2-distribution-of-original-challenges/">Analysis #2/2: distribution of original challenges</a> </p>
-
-<p><a href="/blog/2014/12/21/analysis-2-slash-3-distribution-of-link-weights/">Analysis #2/3: distribution of link weights</a> </p>
-
-<p><a href="/blog/2014/12/23/analysis-2-slash-4-degree-distribution/">Analysis #2/4: degree distribution</a></p>
-
-<p><a href="">Analysis #2/..: degree/weight/benefit correlation</a> (comming soon)</p>
-
-<p><a href="">Analysis #2/..: dynamics of link weights</a> (comming later - or maybe for the next experiment)</p>
-
-<p><a href="">Analysis #2/..: relaxation</a> (comming even later…)</p>
-
-<h1 id="full-list-of-simulations-parameters">Full list of simulation’s parameters:</h1>
-<p>This is a long list mainly for the reference..</p>
-
-<pre><code>## $graphDatabase
 ## [1] &quot;TitanCassandraLocal&quot;
 ## 
 ## $gephiVisualization
