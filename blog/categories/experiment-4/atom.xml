@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiment-4 | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiment-4/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-01-28T14:13:05+01:00</updated>
+  <updated>2015-01-30T23:55:01+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -38,6 +38,9 @@
   </li>
   <li>
     <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Experiment 4-4</a>: `believe=0.1’, which means that 300 agents get a new challenge each generation; this is the only difference from Experiment 4/3, where believe=0.2 (600 agents get a new challenge each generation).</p>
+  </li>
+  <li>
+    <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Experiment 4-5</a>: 1000 agents, ‘randomJumpParameter=1’ (very low!), believe=0.15 (i.e. 150 new situations per generation).</p>
   </li>
 </ol>
 
