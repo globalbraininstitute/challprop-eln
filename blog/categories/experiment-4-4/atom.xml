@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Experiment4-4 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment4-4/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Experiment-4-4 | Electronic Laboratory Notebook]]></title>
+  <link href="http://vveitas.github.io/blog/categories/experiment-4-4/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-02-04T23:08:44+01:00</updated>
+  <updated>2015-02-04T23:44:29+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -43,7 +43,10 @@
 ## forgot=78753
 ## 
 ## PERFORMANCE:
-## Number of atomic events: 1442501</code></pre>
+## Number of atomic events: 1442501
+## Total simulation time (secs): 9861.4247956720
+## Total simulation time (hours): 2.7392846655
+## Average time per atomic event (secs): 0.0068363383</code></pre>
 <h2>Average benefit:</h2>
 <pre><code>## 
 ## AVERAGE TOTAL BENEFIT:
