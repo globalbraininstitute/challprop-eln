@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analyses | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/analyses/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-02-05T12:13:59+01:00</updated>
+  <updated>2015-02-05T12:21:10+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -18,7 +18,7 @@
     <link href="http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-05T11:50:32+01:00</updated>
     <id>http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges</id>
-    <content type="html"><![CDATA[<p>Date: Thu Feb 5 11:45:15 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): {analysis_commitNo} <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
+    <content type="html"><![CDATA[<p>Date: Thu Feb 5 11:45:15 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 56f6334 <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
 
