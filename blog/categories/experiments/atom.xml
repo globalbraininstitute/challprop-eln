@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiments/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-02-04T23:57:35+01:00</updated>
+  <updated>2015-02-05T12:13:59+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -23,6 +23,8 @@
 <h2 id="analyses">Analyses</h2>
 
 <p><a href="/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics/">Analysis 4.5/1: average benefit dynamics</a>: looks somewhat more interesting, at least the benefit accumulation per time is not constant, but also not something expected…</p>
+
+<p><a href="/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/">Analysis 4.5/2: challenge distribution</a>: shows that with the higher degree the challenge propagation becomes more normally distributed. Completely logical, but points to the need of further analyses.. </p>
 
 <h2 id="full-paramerters">Full paramerters</h2>
 
