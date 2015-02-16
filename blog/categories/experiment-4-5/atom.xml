@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Experiment-4-5 | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/experiment-4-5/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-02-11T18:34:46+01:00</updated>
+  <updated>2015-02-16T11:39:04+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -177,7 +177,7 @@ reinterpreted
     <updated>2015-01-30T23:09:00+01:00</updated>
     <id>http://vveitas.github.io/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics</id>
     <content type="html"><![CDATA[<p>Date: Fri Jan 30 23:03:11 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>4efc951</code> <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): <code>a85a0a5d</code> <br /> Codebase version(challprop-java](<a href="https://bitbucket.org/gbi/challprop-experiments" class="uri">https://bitbucket.org/gbi/challprop-experiments</a>)): <code>0e07f0df</code> <br /> (use <code>git checkout $commit$</code> if needed) <br />
-<a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
+<a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
 <h2>Basic Statistics:</h2>
 <p>These very roughly characterize what kind of data structure we get out of simulation. Note, that the average degree of an agent is 13.3.</p>
 <pre><code>## 
@@ -211,7 +211,7 @@ reinterpreted
 
 <p>First, I will do all prepared analyses and then will go for link weight / average degree dynamics and compare that to benefit dynamics…</p>
 
-<p><a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
+<p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
 ]]></content>
   </entry>
   
