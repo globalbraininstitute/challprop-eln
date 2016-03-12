@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Analytics | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/analytics/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/analytics/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:07:46+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.5/4 Degree Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution/"/>
     <updated>2015-02-11T17:38:37+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 17:29:52 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>df5e83f</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>

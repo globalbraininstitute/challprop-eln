@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Analyses | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/analyses/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/analyses/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:07:46+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/4 Degree Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution/"/>
     <updated>2015-02-11T18:28:02+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:27:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>25a25dd</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/3: Link Weights]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights/"/>
     <updated>2015-02-11T18:21:47+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:12:00 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>ee7d453</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ananysis 4.5/3 Link Weight Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution/"/>
     <updated>2015-02-11T17:06:39+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution</id>
     <content type="html"><![CDATA[<p>Date: Sat Dec 27 16:25:10 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>4cb1bdd</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
@@ -80,9 +80,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/2 Distribution of Challenges]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-11T16:45:46+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 16:40:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): {analysis_commitNo} <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -192,9 +192,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.5/2: Distribution of Challenges]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-05T11:50:32+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges</id>
     <content type="html"><![CDATA[<p>Date: Thu Feb 5 11:45:15 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 56f6334 <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>

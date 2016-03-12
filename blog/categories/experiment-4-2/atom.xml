@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4-2 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment-4-2/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-4-2/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:07:46+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.2/1 Benefit Increase]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/"/>
     <updated>2015-01-05T19:01:02+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 4 23:38:02 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>e14597f</code> <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): <code>fc951a66</code> <br /> Codebase version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-java</a>): <code>78a58e52</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/">Back to the experiment page</a></p>
@@ -62,9 +62,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 4/2: 3k Agents; randomJumpParameter 99]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/"/>
     <updated>2015-01-05T18:59:56+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99</id>
     <content type="html"><![CDATA[<p>Changes to the code just before:</p>
 
 <ul>

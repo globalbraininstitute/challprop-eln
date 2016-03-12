@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4-4 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment-4-4/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-4-4/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:07:46+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/4 Degree Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution/"/>
     <updated>2015-02-11T18:28:02+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:27:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>25a25dd</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -32,9 +32,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/3: Link Weights]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights/"/>
     <updated>2015-02-11T18:21:47+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-3-link-weights</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:12:00 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>ee7d453</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -56,9 +56,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/2 Distribution of Challenges]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-11T16:45:46+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 16:40:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): {analysis_commitNo} <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
@@ -168,9 +168,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.4/1: Average Benefit]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/28/analysis-4-dot-4-slash-1-average-benefit/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/28/analysis-4-dot-4-slash-1-average-benefit/"/>
     <updated>2015-01-28T13:49:03+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/28/analysis-4-dot-4-slash-1-average-benefit</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/28/analysis-4-dot-4-slash-1-average-benefit</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 4 22:44:29 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>71e6df9</code> <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): <code>e02bdc42</code> <br /> Codebase version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-java</a>): <code>0e07f0df</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment</a></p>
@@ -218,9 +218,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4/4: 3k Agents, randomJumpParameter=10,believe=0.1]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/"/>
     <updated>2015-01-28T13:40:13+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1</id>
     <content type="html"><![CDATA[<p>This time the simulation was able to finish because there were twice less new situations created each generation (300 instead of 600).</p>
 
 <h2 id="analyses">Analyses:</h2>
