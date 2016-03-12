@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4 | Electronic Laboratory Notebook]]></title>
-  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-4/atom.xml" rel="self"/>
-  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
-  <updated>2016-03-12T21:13:44+01:00</updated>
-  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
+  <link href="http://globalbraininstitute.github.i/blog/categories/experiment-4/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.i/"/>
+  <updated>2016-03-12T21:21:51+01:00</updated>
+  <id>http://globalbraininstitute.github.i/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 4: Playing With randomJumpParameter]]></title>
-    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/"/>
+    <link href="http://globalbraininstitute.github.i/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter/"/>
     <updated>2014-12-28T00:02:33+01:00</updated>
-    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter</id>
+    <id>http://globalbraininstitute.github.i/blog/2014/12/28/experiment-4-playing-with-randomjumpparameter</id>
     <content type="html"><![CDATA[<h1 id="experimental-setup">Experimental setup:</h1>
 
 <p>I am thinking of a few simulations with lower <code>randomJumpParameter</code> untill Analysis #../1 starts to show any signs of learning in the network. If that does not work, maybe trying variable parameters (i.e. stages of exploration-exploitation) will help..</p>
