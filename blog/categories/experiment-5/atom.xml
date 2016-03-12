@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-5 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment-5/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-5/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:13:44+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 5: Less Agents in the Network]]></title>
-    <link href="http://vveitas.github.io/blog/2016/03/12/experiment-5-full-report/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2016/03/12/experiment-5-full-report/"/>
     <updated>2016-03-12T00:00:00+01:00</updated>
-    <id>http://vveitas.github.io/blog/2016/03/12/experiment-5-full-report</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2016/03/12/experiment-5-full-report</id>
     <content type="html"><![CDATA[<div class="container-fluid main-container">
 
 <!-- tabsets -->

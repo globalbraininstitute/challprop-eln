@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://vveitas.github.io/sitemap.xml 
+Sitemap: http://globalbraininstitute.github.io/challprop-eln/sitemap.xml 

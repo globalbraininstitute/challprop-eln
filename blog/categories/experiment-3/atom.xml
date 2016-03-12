@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-3 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment-3/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-3/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:13:44+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 3/5: Random Jumps]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/27/analysis-3-slash-5-random-jumps/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/27/analysis-3-slash-5-random-jumps/"/>
     <updated>2014-12-27T13:54:02+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/27/analysis-3-slash-5-random-jumps</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/27/analysis-3-slash-5-random-jumps</id>
     <content type="html"><![CDATA[<p>Date: Sat Dec 27 23:07:13 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 9c43064 <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -47,9 +47,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 3/4: Degree Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-4-degree-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-4-degree-distribution/"/>
     <updated>2014-12-26T22:44:40+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-4-degree-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-4-degree-distribution</id>
     <content type="html"><![CDATA[<p>Date: Fri Dec 26 22:26:54 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 7e2901a <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -65,9 +65,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 3/3: Distribution of Link Weights]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights/"/>
     <updated>2014-12-26T22:44:19+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-3-distribution-of-link-weights</id>
     <content type="html"><![CDATA[<p>Date: Sat Dec 27 13:04:50 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): bf1470b <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -88,9 +88,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 3/2: Distribution of Challenges]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges/"/>
     <updated>2014-12-26T22:43:54+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-2-distribution-of-original-challenges</id>
     <content type="html"><![CDATA[<p>Date: Sat Dec 27 01:00:17 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): c275278 <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
@@ -222,9 +222,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Analysis 3/1: Basic Statistics and Benefit Increase]]></title>
-    <link href="http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase/"/>
     <updated>2014-12-26T21:07:10+01:00</updated>
-    <id>http://vveitas.github.io/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2014/12/26/analysis-3-slash-1-basic-statistics-and-benefit-increase</id>
     <content type="html"><![CDATA[<p>Date: Fri Dec 26 20:53:55 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 57a1dde <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>: b0c9813) <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2014/12/26/experiment-3-10k-agents-slash-100-generations/">Back to the experiment page</a></p>

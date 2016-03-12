@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4-5 | Electronic Laboratory Notebook]]></title>
-  <link href="http://vveitas.github.io/blog/categories/experiment-4-5/atom.xml" rel="self"/>
-  <link href="http://vveitas.github.io/"/>
-  <updated>2016-03-12T15:50:19+01:00</updated>
-  <id>http://vveitas.github.io/</id>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/blog/categories/experiment-4-5/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/challprop-eln/"/>
+  <updated>2016-03-12T21:13:44+01:00</updated>
+  <id>http://globalbraininstitute.github.io/challprop-eln/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.5/4 Degree Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution/"/>
     <updated>2015-02-11T17:38:37+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/analysis-4-dot-5-slash-4-degree-distribution</id>
     <content type="html"><![CDATA[<p>Date: Wed Feb 11 17:29:52 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>df5e83f</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
@@ -33,9 +33,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ananysis 4.5/3 Link Weight Distribution]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution/"/>
     <updated>2015-02-11T17:06:39+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/11/alanysis-4-dot-5-slash-3-link-weight-distribution</id>
     <content type="html"><![CDATA[<p>Date: Sat Dec 27 16:25:10 2014 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>4cb1bdd</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
@@ -57,9 +57,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.5/2: Distribution of Challenges]]></title>
-    <link href="http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-05T11:50:32+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/02/05/analysis-4-dot-5-slash-2-distribution-of-challenges</id>
     <content type="html"><![CDATA[<p>Date: Thu Feb 5 11:45:15 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 56f6334 <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/">Back to the experiment page</a></p>
@@ -173,9 +173,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.5/1: Average Benefit Dynamics]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics/"/>
     <updated>2015-01-30T23:09:00+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/30/analysis-4-dot-5-slash-1-average-benefit-dynamics</id>
     <content type="html"><![CDATA[<p>Date: Fri Jan 30 23:03:11 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>4efc951</code> <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): <code>a85a0a5d</code> <br /> Codebase version(challprop-java](<a href="https://bitbucket.org/gbi/challprop-experiments" class="uri">https://bitbucket.org/gbi/challprop-experiments</a>)): <code>0e07f0df</code> <br /> (use <code>git checkout $commit$</code> if needed) <br />
 <a href="/blog/2014/12/09/experiment-2-10k-agents-slash-100-generations/">Back to the experiment page</a></p>
 <h2>Basic Statistics:</h2>
@@ -217,9 +217,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4.5: Agents=1k; randomJumpParameter=1;believe=0,15;iterations=150]]></title>
-    <link href="http://vveitas.github.io/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/"/>
+    <link href="http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/"/>
     <updated>2015-01-30T23:08:20+01:00</updated>
-    <id>http://vveitas.github.io/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150</id>
+    <id>http://globalbraininstitute.github.io/challprop-eln/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150</id>
     <content type="html"><![CDATA[<p>The simulation was set to run for 300 generations, but after around 140 generations the time of each generation became very long (probably because challenges started to multiply - this is something to attend in the future). But, the average degree at that time was already above 10 (something that I was not being able to achieve )</p>
 
 <h2 id="analyses">Analyses</h2>
