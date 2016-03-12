@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4-1 | Electronic Laboratory Notebook]]></title>
-  <link href="http://globalbraininstitute.github.i/blog/categories/experiment-4-1/atom.xml" rel="self"/>
-  <link href="http://globalbraininstitute.github.i/"/>
-  <updated>2016-03-12T21:21:51+01:00</updated>
-  <id>http://globalbraininstitute.github.i/</id>
+  <link href="http://globalbraininstitute.github.io/blog/categories/experiment-4-1/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/"/>
+  <updated>2016-03-12T21:22:26+01:00</updated>
+  <id>http://globalbraininstitute.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.1/1: Benefit Increase]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase/"/>
     <updated>2015-01-02T12:00:36+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase</id>
     <content type="html"><![CDATA[<p>Date: Fri Jan 2 11:25:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): 38fe6d2 <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>: 4709a00) <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/">Back to the experiment page</a></p>
@@ -69,9 +69,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 4.1: 5k Agents; randomJumpParameter = 25]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/"/>
     <updated>2015-01-02T11:39:25+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25</id>
     <content type="html"><![CDATA[<p>Without any change to the code, running 5000 agents with <code>randomJumpParameter</code> equal to <code>25</code> (the change from <code>99</code>) which should increase the probability of random jump considerably (see <a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">random jump probability analysis</a>).</p>
 
 <h2 id="analyses">Analyses</h2>

@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiments | Electronic Laboratory Notebook]]></title>
-  <link href="http://globalbraininstitute.github.i/blog/categories/experiments/atom.xml" rel="self"/>
-  <link href="http://globalbraininstitute.github.i/"/>
-  <updated>2016-03-12T21:21:51+01:00</updated>
-  <id>http://globalbraininstitute.github.i/</id>
+  <link href="http://globalbraininstitute.github.io/blog/categories/experiments/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/"/>
+  <updated>2016-03-12T21:22:26+01:00</updated>
+  <id>http://globalbraininstitute.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 5: Less Agents in the Network]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2016/03/12/experiment-5-full-report/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2016/03/12/experiment-5-full-report/"/>
     <updated>2016-03-12T00:00:00+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2016/03/12/experiment-5-full-report</id>
+    <id>http://globalbraininstitute.github.io/blog/2016/03/12/experiment-5-full-report</id>
     <content type="html"><![CDATA[<div class="container-fluid main-container">
 
 <!-- tabsets -->
@@ -373,9 +373,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4.5: Agents=1k; randomJumpParameter=1;believe=0,15;iterations=150]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150/"/>
     <updated>2015-01-30T23:08:20+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/30/experiment-4-dot-5-agents-equals-1k-randomjumpparameter-equals-1-believe-equals-0-15-iterations-equals-150</id>
     <content type="html"><![CDATA[<p>The simulation was set to run for 300 generations, but after around 140 generations the time of each generation became very long (probably because challenges started to multiply - this is something to attend in the future). But, the average degree at that time was already above 10 (something that I was not being able to achieve )</p>
 
 <h2 id="analyses">Analyses</h2>
@@ -508,9 +508,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4/4: 3k Agents, randomJumpParameter=10,believe=0.1]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/"/>
     <updated>2015-01-28T13:40:13+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1</id>
     <content type="html"><![CDATA[<p>This time the simulation was able to finish because there were twice less new situations created each generation (300 instead of 600).</p>
 
 <h2 id="analyses">Analyses:</h2>
@@ -667,9 +667,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4/2: 3k Agents; randomJumpParameter 99]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/"/>
     <updated>2015-01-05T18:59:56+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99</id>
     <content type="html"><![CDATA[<p>Changes to the code just before:</p>
 
 <ul>
@@ -832,9 +832,9 @@ reinterpreted
   
   <entry>
     <title type="html"><![CDATA[Experiment 4.1: 5k Agents; randomJumpParameter = 25]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25/"/>
     <updated>2015-01-02T11:39:25+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/02/experiment-4-dot-1-5k-agents-randomjumpparameter-equals-25</id>
     <content type="html"><![CDATA[<p>Without any change to the code, running 5000 agents with <code>randomJumpParameter</code> equal to <code>25</code> (the change from <code>99</code>) which should increase the probability of random jump considerably (see <a href="/blog/2014/12/27/analysis-3-slash-5-random-jumps/">random jump probability analysis</a>).</p>
 
 <h2 id="analyses">Analyses</h2>

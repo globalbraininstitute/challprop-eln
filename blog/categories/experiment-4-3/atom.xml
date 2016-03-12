@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Category: Experiment-4-3 | Electronic Laboratory Notebook]]></title>
-  <link href="http://globalbraininstitute.github.i/blog/categories/experiment-4-3/atom.xml" rel="self"/>
-  <link href="http://globalbraininstitute.github.i/"/>
-  <updated>2016-03-12T21:21:51+01:00</updated>
-  <id>http://globalbraininstitute.github.i/</id>
+  <link href="http://globalbraininstitute.github.io/blog/categories/experiment-4-3/atom.xml" rel="self"/>
+  <link href="http://globalbraininstitute.github.io/"/>
+  <updated>2016-03-12T21:22:26+01:00</updated>
+  <id>http://globalbraininstitute.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
     
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Analysis 4.3/1 Benefit Increase (Corrupted)]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted/"/>
     <updated>2015-01-06T11:56:01+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/06/analysis-4-dot-3-slash-1-benefit-increase-corrupted</id>
     <content type="html"><![CDATA[<p>Date: Tue Jan 6 11:29:16 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>e858844</code> <br /> Experiment version (<a href="https://bitbucket.org/gbi/challprop-experiments">challprop-experiments</a>): <code>df2265c</code>) <br /> Codebase version (<a href="https://bitbucket.org/gbi/challprop">challprop-java</a>): <code>78a58e5</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/">Back to the experiment page</a></p>
@@ -58,9 +58,9 @@
   
   <entry>
     <title type="html"><![CDATA[Experiment 4.3: 3k Agents; randomJumpParameter 10]]></title>
-    <link href="http://globalbraininstitute.github.i/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/"/>
+    <link href="http://globalbraininstitute.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10/"/>
     <updated>2015-01-06T11:37:40+01:00</updated>
-    <id>http://globalbraininstitute.github.i/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10</id>
+    <id>http://globalbraininstitute.github.io/blog/2015/01/06/experiment-4-dot-3-3k-agents-randomjumpparameter-10</id>
     <content type="html"><![CDATA[<p>Running simulation with the <code>randomJumpParameter=10</code> was not sucessfull - the time needed for the propagation step started to explode (probably because of the drastically increased number of links through which situations started to propagate). I had to cancel the simulation which resulted in somewhat corrupted database…</p>
 
 <h2 id="simulation-log">Simulation log</h2>
