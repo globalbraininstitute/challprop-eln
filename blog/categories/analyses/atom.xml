@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Analyses | Electronic Laboratory Notebook]]></title>
   <link href="http://vveitas.github.io/blog/categories/analyses/atom.xml" rel="self"/>
   <link href="http://vveitas.github.io/"/>
-  <updated>2015-02-16T11:39:04+01:00</updated>
+  <updated>2016-03-12T15:21:00+01:00</updated>
   <id>http://vveitas.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -18,7 +18,7 @@
     <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution/"/>
     <updated>2015-02-11T18:28:02+01:00</updated>
     <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-4-degree-distribution</id>
-    <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:27:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>25a25dd</code> <br /> (use <code>git checkout $commit$</code> if needed) </p>
+    <content type="html"><![CDATA[<p>Date: Wed Feb 11 18:27:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): <code>25a25dd</code> <br /> (use <code>git checkout $commit$</code> if needed)</p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
 
@@ -83,7 +83,7 @@
     <link href="http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges/"/>
     <updated>2015-02-11T16:45:46+01:00</updated>
     <id>http://vveitas.github.io/blog/2015/02/11/analysis-4-dot-4-slash-2-distribution-of-challenges</id>
-    <content type="html"><![CDATA[<p>Date: Wed Feb 11 16:40:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): {analysis_commitNo} <br /> (use <code>git checkout $commit$</code> if needed) <br /> </p>
+    <content type="html"><![CDATA[<p>Date: Wed Feb 11 16:40:39 2015 <br /> Analysis version (<a href="https://bitbucket.org/gbi/challprop-analytics">challprop-analytics</a>): {analysis_commitNo} <br /> (use <code>git checkout $commit$</code> if needed) <br /></p>
 
 <p><a href="/blog/2015/01/28/experiment-4-slash-4-3k-agents-randomjumpparameter-equals-10-believe-equals-0-dot-1/">Back to the experiment page</a></p>
 
