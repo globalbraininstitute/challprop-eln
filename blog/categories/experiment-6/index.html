@@ -2,10 +2,10 @@
 <html class="no-js" lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Experiment 4/2: 3k Agents; randomJumpParameter 99 - Electronic Laboratory Notebook</title>
+  <title>Category: Experiment-6 - Electronic Laboratory Notebook</title>
   <meta name="author" content="vveitas">
 
-  
+  <meta name="description" content="Category: experiment-6">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -14,16 +14,16 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99">
+  <link rel="canonical" href="http://globalbraininstitute.github.io/blog/categories/experiment-6">
   <link href="/challprop-eln/favicon.png" type="image/png" rel="icon">
   <link href="/atom.xml" rel="alternate" title="Electronic Laboratory Notebook" type="application/atom+xml">
 
   <!-- http://opengraphprotocol.org/ -->
   <meta name="twitter:card" content="summary_large_image">
   <meta property="og:type" content="website">
-  <meta property="og:url" content="http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99">
-  <meta property="og:title" content="Experiment 4/2: 3k Agents; randomJumpParameter 99 - Electronic Laboratory Notebook">
-  
+  <meta property="og:url" content="http://globalbraininstitute.github.io/blog/categories/experiment-6">
+  <meta property="og:title" content="Category: Experiment-6 - Electronic Laboratory Notebook">
+  <meta property="og:description" content="Category: experiment-6">
 
   <script src="/challprop-eln/javascripts/libs/jquery/jquery-2.0.3.min.js"></script>
 
@@ -59,7 +59,7 @@
 
         <div class="navbar-collapse collapse">
             <ul class="nav navbar-nav">
-                <li class="active">
+                <li >
                     <a rel="index" href="/challprop-eln/">Blog</a>
                 </li>
                 <li >
@@ -92,209 +92,36 @@
       <div id="main" role="main" class="container">
         <div id="content">
           <div class="row">
-  <div class="page-content col-md-9" itemscope itemtype="http://schema.org/Blog">
-    <meta itemprop="name" content="Electronic Laboratory Notebook" />
-    
-    <meta itemprop="url" content="http://globalbraininstitute.github.io" />
-    <article class="hentry" role="article" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  <div class="page-content col-md-9">
+    <article role="article">
       
-  <header class="page-header">
-    
-      <p class="meta text-muted text-uppercase">
-        
-
-
-
-
-
-
-
-
-
-
-
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-01-05T18:59:56+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-        
-      </p>
-    
-    
-    <h1 class="entry-title" itemprop="name headline">
-        Experiment 4/2: 3k Agents; randomJumpParameter 99
-        
-    </h1>
-    
-  </header>
-
-
-<div class="entry-content clearfix" itemprop="articleBody description"><p>Changes to the code just before:</p>
-
-<ul>
-  <li>weightHistory parameter on every link, allowing to get all changes link weights with timestamps of events;</li>
-  <li>bug fix: corrected the mess with reciprocal links;</li>
-  <li>bug fix: links to generator of diversity were not set to 1 initially…;</li>
-  <li>bug fix: got rid of testNG tests in favor of JUnit: some important tests were not passing because of that.</li>
-</ul>
-
-<p>Running 3000 agents with <code>randomJumpParameter</code> equal to <code>99</code> for a quick test of the refreshed codebase.</p>
-
-<h2 id="analyses">Analyses</h2>
-
-<p><a href="/challprop-eln/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/">Analysis 4.2/1: benefit increase</a></p>
-
-<p>Nothing different from previous attemps - the benefit increase per unit of time is flat…</p>
-
-<h2 id="all-simulation-parameters">All simulation parameters:</h2>
-
-<pre><code>## $pathOnDisk
-## [1] &quot;/media/data/gbi/eln/&quot;
-## 
-## $generateTestDataOnDisk
-## [1] &quot;false&quot;
-## 
-## $tempConfigFile
-## [1] &quot;/media/ramdisk/challprop.conf&quot;
-## 
-## $test
-## [1] &quot;false&quot;
-## 
-## $graphDatabase
-## [1] &quot;TitanCassandraLocal&quot;
-## 
-## $gephiVisualization
-## [1] &quot;false&quot;
-## 
-## $useDatabaseOfVectors
-## [1] &quot;true&quot;
-## 
-## $useDatabaseOfMatrixes
-## [1] &quot;true&quot;
-## 
-## $rivalComponents
-## [1] &quot;[0, 1, 2, 3, 4]&quot;
-## 
-## $cstSituation
-## [1] &quot;0.05&quot;
-## 
-## $densityVectorSituation
-## [1] &quot;0.25&quot;
-## 
-## $percnegSituation
-## [1] &quot;0.2&quot;
-## 
-## $exponentSituation
-## [1] &quot;2&quot;
-## 
-## $numberOfAgents
-## [1] &quot;3000&quot;
-## 
-## $decayFactor
-## [1] &quot;1&quot;
-## 
-## $decayRate
-## [1] &quot;0.03&quot;
-## 
-## $reciprocityRate
-## [1] &quot;0.2&quot;
-## 
-## $linkToGodWeight
-## [1] &quot;1.0&quot;
-## 
-## $weightImportance
-## [1] &quot;0.2&quot;
-## 
-## $believe
-## [1] &quot;0.2&quot;
-## 
-## $propagateRate
-## [1] &quot;0.4&quot;
-## 
-## $dimensions
-## [1] &quot;10&quot;
-## 
-## $densityMatrix
-## [1] &quot;0.5&quot;
-## 
-## $rfactor
-## [1] &quot;0.5&quot;
-## 
-## $numberOfCycles
-## [1] &quot;100&quot;
-## 
-## $newSituationsPerCycle
-## [1] &quot;5&quot;
-## 
-## $learningRate
-## [1] &quot;0.1&quot;
-## 
-## $randomJump
-## [1] &quot;99&quot;
-## 
-## $propagationThreshold
-## [1] &quot;0&quot;
-## 
-## $disableRandomJump
-## [1] &quot;false&quot;
-## 
-## $maxBranchingFactor
-## [1] &quot;1000&quot;
-## 
-## $respectKnowsLinksWeights
-## [1] &quot;false&quot;
-## 
-## $bufferSize
-## [1] &quot;10&quot;
-## 
-## $ignoreNonRivalCorrection
-## [1] &quot;false&quot;
-## 
-## $cstNeed
-## [1] &quot;0.05&quot;
-## 
-## $densityVectorNeed
-## [1] &quot;0.5&quot;
-## 
-## $percnegNeed
-## [1] &quot;0.5&quot;
-## 
-## $exponentNeed
-## [1] &quot;2&quot;
-## 
-## $simulationStartWall
-## [1] &quot;430949358764&quot;
-## 
-## $simulationStartCPU
-## [1] &quot;1070546952&quot;
-## 
-## $simulationFinishWall
-## [1] &quot;2892111420297&quot;
-## 
-## $simulationFinishCPU
-## [1] &quot;1591309689320&quot;
-## 
-## $archivingFinishedWall
-## [1] &quot;3109134407622&quot;
-## 
-## $archivingFinishedCPU
-## [1] &quot;1679731358918&quot;
-## 
-## $deletingCassandraWall
-## [1] &quot;3109145145508&quot;
-## 
-## $deletingCassandraCPU
-## [1] &quot;1679741859707&quot;</code></pre>
-
-</div>
-
-
-      <footer>
-        <p class="meta text-muted">
+        <header class="page-header">
           
+          
+            <h1 class="entry-title">
+              Category: Experiment-6
+              
+            </h1>
+          
+        </header>
+      
+      <div class="entry-content">
+        <div id="blog-archives" class="category" itemscope itemtype="http://schema.org/Blog">
+<meta itemprop="name" content="Electronic Laboratory Notebook" />
+
+<meta itemprop="url" content="http://globalbraininstitute.github.io" />
+
+
+
+  
+  <h2 class="year">2016</h2>
+
+<article class="page-header" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+  
+<h2 class="post-title" itemprop="name headline"><a href="/challprop-eln/blog/2016/03/17/experiment-6-full-report/" itemprop="url">Experiment 6: Penalty Calculated Only Once Per Situation</a></h2>
+<p class="meta text-muted">
   
 
-<span class="glyphicon glyphicon-user"></span> <span class="byline author vcard" itemprop="author" itemscope itemtype="http://schema.org/Person">Posted by <span class="fn" itemprop="name">vveitas</span></span>
-
-          
 
 
 
@@ -306,48 +133,33 @@
 
 
 
-
-<span class="glyphicon glyphicon-calendar"></span> <time datetime="2015-01-05T18:59:56+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
-          
+<span class="glyphicon glyphicon-calendar"></span> <time datetime="2016-03-17T00:00:00+01:00"  data-updated="true" itemprop="datePublished dateCreated">ordinal</time>
+  
 
 <span class="glyphicon glyphicon-tags"></span>&nbsp;
 <span class="categories">
   
-    <a class='category' href='/challprop-eln/blog/categories/experiment-4-2/'>experiment-4-2</a>, <a class='category' href='/challprop-eln/blog/categories/experiments/'>experiments</a>
+    <a class='category' href='/challprop-eln/blog/categories/experiment-6/'>experiment-6</a>, <a class='category' href='/challprop-eln/blog/categories/experiments/'>experiments</a>
   
 </span>
 
 
-        </p>
-        
-          <div class="sharing">
-  
-  <a href="//twitter.com/share" class="twitter-share-button" data-url="http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/" data-via="" data-counturl="http://globalbraininstitute.github.io/blog/2015/01/05/experiment-4-slash-2-3k-agents-randomjumpparameter-99/" >Tweet</a>
-  
-  
-  
+</p>
+
+</article>
+
 </div>
 
-        
-        
-          <ul class="meta text-muted pager">
-            
-            <li class="previous"><a href="/challprop-eln/blog/2015/01/02/analysis-4-dot-1-slash-1-benefit-increase/" title="Previous Post: Analysis 4.1/1: benefit increase">&laquo; Analysis 4.1/1: benefit increase</a></li>
-            
-            
-            <li class="next"><a href="/challprop-eln/blog/2015/01/05/analysis-4-dot-2-slash-1-benefit-increase/" title="Next Post: Analysis 4.2/1 benefit increase">Analysis 4.2/1 benefit increase &raquo;</a></li>
-            
-          </ul>
-        
-      </footer>
+      </div>
+      
     </article>
     
   </div>
 
   
-  <aside class="sidebar col-md-3">
-    
-      <section class="panel panel-default">
+    <aside class="sidebar col-md-3">
+      
+        <section class="panel panel-default">
   <div class="panel-heading">
     <h3 class="panel-title">Recent Posts</h3>
   </div>
@@ -457,7 +269,7 @@
       </a>
     
     
-    <a class="list-group-item " href="/challprop-eln/blog/categories/experiment-6/index.html">
+    <a class="list-group-item active" href="/challprop-eln/blog/categories/experiment-6/index.html">
         <span class="badge">1</span>
         experiment-6
       </a>
@@ -470,8 +282,8 @@
 
 
 
-    
-  </aside>
+      
+    </aside>
   
 </div>
 
