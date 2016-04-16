@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
+<loc>http://globalbraininstitute.github.io/blog/2016/04/16/scenario8_experiment_comparison/</loc>
+<lastmod>2016-04-16T00:00:00+02:00</lastmod>
+</url>
+<url>
 <loc>http://globalbraininstitute.github.io/blog/2016/04/16/scenario7_experiment_comparison/</loc>
 <lastmod>2016-04-16T00:00:00+02:00</lastmod>
 </url>
@@ -188,9 +192,12 @@
 <loc>http://globalbraininstitute.github.io/blog/categories/experiment-6/</loc>
 </url>
 <url>
-<loc>http://globalbraininstitute.github.io/blog/categories/scenarios/</loc>
+<loc>http://globalbraininstitute.github.io/blog/categories/scenario/</loc>
 </url>
 <url>
 <loc>http://globalbraininstitute.github.io/blog/categories/scenario-7/</loc>
+</url>
+<url>
+<loc>http://globalbraininstitute.github.io/blog/categories/scenario-8/</loc>
 </url>
 </urlset>
