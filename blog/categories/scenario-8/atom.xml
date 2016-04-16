@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Scenario-8 | Electronic Laboratory Notebook]]></title>
   <link href="http://globalbraininstitute.github.io/blog/categories/scenario-8/atom.xml" rel="self"/>
   <link href="http://globalbraininstitute.github.io/"/>
-  <updated>2016-04-16T02:16:08+02:00</updated>
+  <updated>2016-04-16T02:43:14+02:00</updated>
   <id>http://globalbraininstitute.github.io/</id>
   <author>
     <name><![CDATA[vveitas]]></name>
@@ -55,6 +55,7 @@
 <h2>Experiment 8.2</h2>
 <p>Time: 2016-04-15 17:12:13</p>
 <p>Commit: ff447f5b291c44063eec67a197b19afdba504578</p>
+[Link to full report](/blog/2016/04/16/experiment8.2_full_report/)
 <div id="parameters-1" class="section level3">
 <h3>Parameters</h3>
 <p>learningRate : 0.5</p>
